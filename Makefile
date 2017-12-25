@@ -8,5 +8,5 @@ all: $(PROGS)
 %: %.s
 	$(CC) -g -o $@ -masm=intel -nostdlib bootstrap.c $<
 
-clean: $(PROGS)
-	rm $@
+clean:
+	rm $(PROGS)

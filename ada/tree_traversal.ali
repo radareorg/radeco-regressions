@@ -1,0 +1,164 @@
+V "GNAT Lib v8"
+M P W=b
+P ZX
+
+RN
+RV NO_ACCESS_SUBPROGRAMS
+RV NO_ALLOCATORS
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_DISPATCH
+RV NO_DISPATCHING_CALLS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTION_PROPAGATION
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_LOCAL_ALLOCATORS
+RV NO_NESTED_FINALIZATION
+RV NO_RECURSION
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_ALLOCATORS_AFTER_ELABORATION
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_STREAMS
+RV NO_UNCHECKED_ACCESS
+RV NO_UNCHECKED_DEALLOCATION
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_ATTRIBUTES
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLICIT_ALIASING
+RV STATIC_DISPATCH_TABLES
+RV SPARK_05
+
+U tree_traversal%b	tree_traversal.adb	4db56600 NE OO SU
+W ada%s			ada.ads			ada.ali
+W ada.containers%s	a-contai.ads		a-contai.ali
+W ada.containers.doubly_linked_lists%s
+Z ada.containers.helpers%s  a-conhel.adb	a-conhel.ali
+Z ada.exceptions%s	a-except.adb		a-except.ali
+Z ada.finalization%s	a-finali.ads		a-finali.ali
+Z ada.iterator_interfaces%s
+Z ada.streams%s		a-stream.adb		a-stream.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W ada.unchecked_deallocation%s
+Z system%s		system.ads		system.ali
+Z system.address_image%s  s-addima.adb		s-addima.ali
+Z system.concat_2%s	s-conca2.adb		s-conca2.ali
+Z system.finalization_masters%s  s-finmas.adb	s-finmas.ali
+Z system.img_int%s	s-imgint.adb		s-imgint.ali
+Z system.pool_global%s	s-pooglo.adb		s-pooglo.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+Z system.standard_library%s  s-stalib.adb	s-stalib.ali
+Z system.storage_elements%s  s-stoele.adb	s-stoele.ali
+Z system.storage_pools%s  s-stopoo.adb		s-stopoo.ali
+Z system.storage_pools.subpools%s  s-stposu.adb	s-stposu.ali
+Z system.stream_attributes%s  s-stratt.adb	s-stratt.ali
+
+D ada.ads		20180113120628 76789da1 ada%s
+D a-contai.ads		20180113120628 61e5e089 ada.containers%s
+D a-cdlili.ads		20180113120628 8e06b4f2 ada.containers.doubly_linked_lists%s
+D a-cdlili.adb		20180113120628 8ed211ef ada.containers.doubly_linked_lists%b
+D a-conhel.ads		20180113120628 20298884 ada.containers.helpers%s
+D a-conhel.adb		20180113120628 9cc5095b ada.containers.helpers%b
+D a-except.ads		20180113120628 291912d5 ada.exceptions%s
+D a-finali.ads		20180113120628 bf4f806b ada.finalization%s
+D a-ioexce.ads		20180113120628 e4a01f64 ada.io_exceptions%s
+D a-iteint.ads		20180113120628 7c7305e9 ada.iterator_interfaces%s
+D a-stream.ads		20180113120628 119b8fb3 ada.streams%s
+D a-tags.ads		20180113120628 491b781d ada.tags%s
+D a-textio.ads		20180113120628 881db35a ada.text_io%s
+D a-unccon.ads		20180113120628 0e9b276f ada.unchecked_conversion%s
+D a-uncdea.ads		20180113120628 eff36322 ada.unchecked_deallocation%s
+D interfac.ads		20180113120628 5ab55268 interfaces%s
+D i-cstrea.ads		20180113120628 e53d8b8e interfaces.c_streams%s
+D system.ads		20180113120628 4635ec04 system%s
+D s-addima.ads		20180113120628 a1ec9d3a system.address_image%s
+D s-atocou.ads		20180113120628 b45c2d8d system.atomic_counters%s
+D s-atocou.adb		20180113120628 b65612c0 system.atomic_counters%b
+D s-conca2.ads		20180113120628 02a0d7d0 system.concat_2%s
+D s-crtl.ads		20180113120628 0ebbdb71 system.crtl%s
+D s-exctab.ads		20180113120628 54135002 system.exception_table%s
+D s-ficobl.ads		20180113120628 078245e4 system.file_control_block%s
+D s-finmas.ads		20180113120628 7811a767 system.finalization_masters%s
+D s-finroo.ads		20180113120628 4ff27390 system.finalization_root%s
+D s-imgint.ads		20180113120628 02dbe0c2 system.img_int%s
+D s-memory.ads		20180113120628 597d6634 system.memory%s
+D s-parame.ads		20180113120628 f896c45c system.parameters%s
+D s-pooglo.ads		20180113120628 ede33ef8 system.pool_global%s
+D s-secsta.ads		20180113120628 283dec34 system.secondary_stack%s
+D s-soflin.ads		20180113120628 a7318a92 system.soft_links%s
+D s-stache.ads		20180113120628 a37c21ec system.stack_checking%s
+D s-stalib.ads		20180113120628 09bd3940 system.standard_library%s
+D s-stalib.adb		20180113120628 f2fe2716 system.standard_library%b
+D s-stoele.ads		20180113120628 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20180113120628 ed88f8fb system.storage_elements%b
+D s-stopoo.ads		20180113120628 b16154c2 system.storage_pools%s
+D s-stposu.ads		20180113120628 97a6219c system.storage_pools.subpools%s
+D s-stratt.ads		20180113120628 aedef97e system.stream_attributes%s
+D s-traent.ads		20180113120628 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20180113120628 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20180113120628 1b7d22d2 system.wch_con%s
+D tree_traversal.adb	20180816114541 a45d028a tree_traversal%b
+X 1 ada.ads
+16K9*Ada 20e8 45|1r6 1r23 2r6 3r6 14r29 63r29
+X 2 a-contai.ads
+16K13*Containers 24e19 45|3r10 63r33
+X 3 a-cdlili.ads
+46k24*Doubly_Linked_Lists 406e39 45|3w21 63r44
+51R9 List<8|43R9> 45|65r20[63]
+76V13 Is_Empty{boolean} 45|69s17[63]
+148U14 Append 45|68s18[63] 74s24[63] 77s24[63]
+158U14 Delete_First 45|71s10[63]
+200V13 First_Element{45|7P9} 45|70s18[63]
+X 10 a-iteint.ads
+24h9 Forward_Iterator
+32h9 Reversible_Iterator<24R9[3|69]>
+X 13 a-textio.ads
+49K13*Text_IO 471e16 45|1w10 1r27
+166U14*New_Line 45|97s4 100s4 103s4 106s4
+242U14*Put 45|34s7 47s7 60s7 72s10 95s4 98s4 101s4 104s4
+X 15 a-uncdea.ads
+20u15*Unchecked_Deallocation 45|2w10 14r33
+X 18 system.ads
+67M9*Address
+X 29 s-memory.ads
+53V13*Alloc{18|67M9} 103i<c,__gnat_malloc>22
+68U14*Free 104i<c,__gnat_free>22
+76V13*Realloc{18|67M9} 105i<c,__gnat_realloc>22
+X 36 s-stalib.adb
+93U14 Break_Start 94i<c,__gnat_break_start>22
+X 45 tree_traversal.adb
+5U11*Tree_Traversal 5b11 108l5 108t19
+6R9 Node 7r31 8c9 12e14 14r56 25r33
+7P9 Node_Access(6R9) 9r14 10r15 13r38 14r62 24r42 24r63 24r83 25r14 32r27
+. 42r26 52r28 62r29 63r64 66r14 81r8
+9p7 Left{7P9} 16r12 17m25 28m12 35r12 36r21 44r12 45r20 54r12 55r22 73r18
+. 74r36
+10p7 Right{7P9} 19r12 20m25 29m12 38r12 39r21 48r12 49r20 57r12 58r22 76r18
+. 77r36
+11i7 Data{integer} 27m12 34r27 47r27 60r27 72r33
+13U14 Destroy_Tree 13b14 13=27 17s10 20s10 23l8 23t20 107s4
+13p27 N{7P9} 16r10 17r23 19r10 20r23 22m12
+14U17 free[15|20] 22s7
+24V13 Tree{7P9} 24b13 24>18 24>35 24>55 31l8 31t12 83s9 84s7 85s10 86s13
+. 88s10 89s7 90s10 91s13 92s13
+24i18 Value{integer} 27r20
+24p35 Left{7P9} 28r20
+24p55 Right{7P9} 29r21
+25p7 Temp{7P9} 27r7 28r7 29r7 30r14
+32U14 Preorder 32b14 32>23 36s10 39s10 41l8 41t16 96s4
+32p23 N{7P9} 34r25 35r10 36r19 38r10 39r19
+42U14 Inorder 42b14 42>22 45s10 49s10 51l8 51t15 99s4
+42p22 N{7P9} 44r10 45r18 47r25 48r10 49r18
+52U14 Postorder 52b14 52>24 55s10 58s10 61l8 61t17 102s4
+52p24 N{7P9} 54r10 55r20 57r10 58r20 60r25
+62U14 Levelorder 62b14 62>25 80l8 80t18 105s4
+62p25 N{7P9} 68r25
+63K15 Queues[3|46] 64r11
+65r7 Node_Queue{3|51R9[63]} 68m7 68r7 69r26 70r32 71m23 71r23 74m13 74r13
+. 77m13 77r13
+66p7 Next{7P9} 70m10 72r28 73r13 74r31 76r13 77r31
+81p4 N{7P9} 83m4 96r13 99r12 102r14 105r15 107m17 107r17
+
